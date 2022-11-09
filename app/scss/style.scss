@@ -3,6 +3,121 @@
 @import 'reset';
 @import 'global';
 
+.header{
+  background-color: #000;
+  height: 1000px;
+  &__top{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0 48px;
+    .menu{
+      &__list{
+      display: flex;
+
+      }
+      &__item{
+        margin-left: 30px;
+      }
+      &__link{
+        color: #636363;
+        font-size: 14px;
+        font-family: 'Hauora-Regular';
+        &:hover{
+          color: #fff;
+        }
+      }
+    }
+    &-link{
+      font-family: 'Hauora-Bold';
+      font-size: 14px;
+      line-height: 180%;
+      color: #fff;
+      margin-right: 24px;
+      &:hover{
+        color: #636363;
+        }
+    }
+  }
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+      border-radius: 10px;
+    max-width: 1110px;
+    margin: 0 auto 35px;
+    height: 110px;
+    background-color: #CD3939;
+    align-items: center;
+    padding: 0 25px;
+    &-title{
+      font-size: 30px;
+      line-height: 36px;
+      font-family: 'Hauora-Bold';
+      max-width: 420px
+    }
+    &-link{
+      color: #CD3939;
+      padding: 17px 30px;
+      background-color: #fff;
+      border-radius: 20px;
+      &:hover{
+        background-color: #636363;
+        color: #fff;
+      }
+    }
+  }
+  &__info{
+    background-image: url('/images/header-bg.png');
+    background-repeat: no-repeat;
+    background-position: 450px center;
+    &-title{
+      font-family: 'Montserrat-Bold';
+      font-size: 74px;
+      line-height: 75px;
+      max-width: 730px;
+      margin-bottom: 32px;
+    }
+    &-sold{
+      font-family: 'Montserrat-Regular';
+      font-size: 20px;
+      line-height: 36px;
+      max-width:  475px;
+      margin-bottom: 60px;
+    }
+    &-link{
+      height: 57px;
+      max-width: 310px;
+      margin-bottom: 32px;
+      border-radius: 10px;
+      padding: 0 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #CD3939;
+      font-size: 14px;
+      line-height: 100%;
+      color: #fff;
+      flex-wrap: nowrap;
+      &:hover{
+        background-color: #fff;
+          color: #CD3939;
+          path{
+            fill:#CD3939;
+          }
+        
+      }
+      & svg{
+        margin-right: 20px;
+      }
+    }
+    &-text{
+      max-width: 470px;
+      font-size: 14px;
+      line-height: 24px;
+
+    }
+  }
+}
+
 
 
 

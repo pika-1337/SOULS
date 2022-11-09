@@ -1,5 +1,26 @@
 
 
-body{
 
+body{
+color: #fff;
+font-size: 14px;
+line-height: 24px;
+  font-family: 'Montserrat-Regular';
 }
+.container{
+  padding: 0 15px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+a{
+  color: #636363; 
+  font-size: 14px;
+  // flex-wrap: nowrap;
+  font-family: 'Montserrat-Bold';
+}
+// .container__small{
+//   padding: 0 15px;
+//   max-width: 1440px;
+//   margin: 0 auto;
+// }
